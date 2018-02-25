@@ -9,5 +9,11 @@ $(document).ready(function() {
 $("locations").show();
 
 <input name = "firstname" type="text">
+
+function validateForm() {
+  var name = document.forms["myForm"]["fname"].value;
+  if (name === "") {
+    alert ("Please enter a name!");
+    return false;
   });
 });
