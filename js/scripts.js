@@ -1,9 +1,23 @@
  $(document).ready(function() {
    $("form#questions").submit(function(event) {
      var adventurous = parseInt($("input#adventurous").val());
-   }
- }
 
+  if (adventurous === 1) {
+    $('#RUSTIC').show();
+  } else if (adventurous === 2) {
+    $('#TROPICAL').show();
+  } else if (adventurous === 3) {
+    alert("Wow, a risk taker!");
+    $('#METROPOLITAN').show();
+  } else if (adventurous === 4) {
+    alert("What a travel bug you are!");
+    $('#SCENIC').show();
+  } else {
+    $('#TROPICAL').show();
+  }
+    event.preventDefault();
+  });
+});
 
 
 //    var adventure = confirm("Are you really this adventurous? Click OK for yes or Cancel for no.");
@@ -27,7 +41,7 @@
 
 
 
- {
+
 //   $("#adventure form").submit(function() {
 //     $(".one").append("blah blah");
 //     $(".two").append("blah blah");
@@ -37,12 +51,10 @@
 
 
 
-<input name = "firstname" type="text">
+//<input name = "firstname" type="text">
 
 // function validateForm() {
 //  var name = document.forms["myForm"]["fname"].value;
 //  if (name === "") {
 //    alert ("Please enter a name!");
 //    return false;
-  });
-});
