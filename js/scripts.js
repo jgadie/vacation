@@ -6,7 +6,7 @@ $(document).ready(function() {
     $(".four").append("blah blah");
     $(".five").append("blah blah");
 
-$("locations").show();
+$("destinations").show();
 
 <input name = "firstname" type="text">
 

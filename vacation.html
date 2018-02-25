@@ -12,7 +12,6 @@
   </head>
   <body>
 
-
     <!-- Write your comments here -->
     <!-- Write your comments here -->
 
@@ -24,17 +23,17 @@
       <p>In order to find the perfect destination, please tell use a little bit about yourself and your preferences:</p>
 
   <!-- Code to run Name input alert -->
-      <form name="myForm" action="/action_page.php"
+<!--      <form name="myForm" action="/action_page.php"
       onsubmit="return validateForm()" method="post">
       Name: <input type="text" firstname="fname">
       <input type="submit" value="submit">
-    </form>
+    </form> -->
 
 <!-- Name entry with validation success and error -->
 
-<!--      <form id="questions"
+     <form id="questions"
         <label for="firstname">Name</label>
-        <input id="firstname" type="text"> -->
+        <input id="firstname" type="text">
 <br>
 <!-- Dropdown menu questions -->
 
@@ -78,6 +77,7 @@
 </div>
 <!-- Start of Destinations: Tropical, Metropolitan, Scenic, Rustic -->
 
+<div id="destinations">
     <div class="row">
        <div id="TROPICAL">
 
@@ -103,7 +103,7 @@
     </div>
  </div>
 
- <div class="row"
+ <div class="row">
       <div id="SCENIC">
     <h2>If you like <b>SCENIC</b> destinations</h2>
      <p>Congratulations! You picked "SCENIC" destinations are your perfect vacation choice!  Scenic destinations offer a chance to see the world!  Scenic destinations include places like Madrid, Amsterdam, and Rome!  Scenic destinations are best for those who like traveling to new places.  These are perfect destinations for travel bugs! <a href="https://www.google.com/flights/#search;f=PDX;d=2018-03-13;r=2018-03-17;in=ecot;mc=e" target="_blank"><b>Click here for more...</b></a></p>
@@ -111,11 +111,11 @@
      <img src="img/scenic2.jpg" alt="Amsterdam" width="500" height="377">
      <img src="img/scenic3.jpg" alt="Rome" width="500" height="377">
    </div>
-   </div>
+</div>
 
    <!-- DIVs are not matching up in Rustic destination category and closing 'div class=container' at beginning of code -->
 
-<div class="row"
+<div class="row">
     <div id="RUSTIC">
     <h2>If you like <b>RUSTIC</b> destinations</h2>
       <p>Congratulations! You picked "RUSTIC" destinations are your perfect vacation choice!  Rustic destinations offer a chance to relax in a tranquil setting!  Rustic destinations include places like the mountains and countrysides!  Rustic destinations are best for those who like peace and quiet.  These are perfect destinations for weekend warriors, too! <a href="https://www.google.com/flights/#search;f=PDX;d=2018-03-13;r=2018-03-17;in=ecot;mc=e" target="_blank"><b>Click here for more...</b></a></p>
@@ -123,5 +123,6 @@
       <img src="img/rustic2.jpg" alt="countryside" width="500" height="377">
     </div>
   </div>
+</div>
   </body>
 </html>
