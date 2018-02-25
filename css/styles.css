@@ -1,3 +1,14 @@
-#locations{
-  display: none;
+body {
+  background-color: #E0FFFF
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+/* #locations{
+    display: none;
 }
