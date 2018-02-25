@@ -12,10 +12,55 @@
     <div class="container">
     <h1>The Vacation of Your Dreams: Questionnaire</h1>
     <h3>A Questionnaire to find your perfect vacation destination!</h3>
+      <p>In order to find the perfect destination, please tell use a little bit about yourself and your preferences:</p>
 
-    <div id="TROPICAL">
+      <form id="destination"
+        <label for="firstname">Enter your name</label>
+        <input id="firstname" type="text">
+        <label for="adventure">How adventurous are you on a scale of 1 through 5 (5 = VERY adventurous)</label>
+        <select id="adventure">
+          <option value="one">1</option>
+          <option value="two">2</option>
+          <option value="three">3</option>
+          <option value="four">4</option>
+          <option value="five">5</option>
+        </select>
+
+          <label for="companion">How do you like to travel? Solo, with a friend, or with a small group?</label>
+          <select id="companion">
+          <option value="solo">Solo</option>
+          <option value="friend">With a friend</option>
+          <option value="group">With a group</option>
+         </select>
+
+         <label for="time">How long would you like your ideal destination vacation be?</label>
+         <select id="time">
+         <option value="short">A few days</option>
+         <option value="two weeks">Two weeks</option>
+         <option value="month">A month</option>
+        </select>
+
+        <label for="transportation">How would you get to your perfect vacation destination?</label>
+        <select id="companion">
+        <option value="plane">A plane</option>
+        <option value="train">A train</option>
+        <option value="automobile">An automobile</option>
+       </select>
+
+       <label for="style">How would you like to spend your vacation?</label>
+       <select id="style">
+       <option value="exploring">Exploring</option>
+       <option value="relaxing">Relaxing</option>
+       <option value="sightseeing">Sightseeing</option>
+      </select>
+
+      </form>
+  </div>
+
+   <div id="TROPICAL">
     <h2>If you like TROPICAL destinations</h2>
       <p>Congratulations! You picked "TROPICAL" destinations are your perfect vacation choice!  Tropical destinations offer a chance to rest and recouparate in paradise!  Tropical destinations include places like Hawaii, the Bahamas, the Caribbean, and the Maldives islands!  Tropical destinations are best for those who like sun, surf, and beaches.  These are perfect destinations for honeymooners, too!</p>
+
       <img src="img/tropical1.jpg" alt="Hawaii" width="500" height="377">
       <img src="img/tropical2.jpg" alt="Bahamas" width="500" height="377">
       <img src="img/tropical3.jpg" alt="Caribbean" width="500" height="377">
@@ -28,7 +73,6 @@
       <img src="img/metropolitan2.jpeg" alt="London" width="500" height="377">
       <img src="img/metropolitan3.jpg" alt="Tokyo" width="500" height="377">
       <img src="img/metropolitan4.jpg" alt="Sydney" width="500" height="377">
-
 
     <div id="SCENIC">
     <h2>If you like SCENIC destinations</h2>
@@ -46,7 +90,7 @@
         </div>
        </div>
       </div>
-     </div>
+    </div>
    </div>
   </body>
 </html>
