@@ -1,19 +1,26 @@
  $(document).ready(function() {
-   var adventure = confirm("Are you really this adventurous? Click OK for yes or Cancel for no.");
+   $("form#questions").submit(function(event) {
+     var adventurous = parseInt($("input#adventurous").val());
+   }
+ }
 
-   if (adventure === 1) {
-    $('#one').show();
-  } else if (adventure === 2) {
-    alert("Getting excited?");
-    $('#two').show();
-  } else if (adventure === 3) {
-    alert("You are pretty adventurous!");
-    $('#three').show();
-  } else (adventure === 4) {
-    alert("Wow! What a travel bug you are!");
-    $('#four').show();
-  }
-});
+
+
+//    var adventure = confirm("Are you really this adventurous? Click OK for yes or Cancel for no.");
+//
+//    if (adventure === 1) {
+//     $('#one').show();
+//   } else if (adventure === 2) {
+//     alert("Getting excited?");
+//     $('#two').show();
+//   } else if (adventure === 3) {
+//     alert("You are pretty adventurous!");
+//     $('#three').show();
+//   } else (adventure === 4) {
+//     alert("Wow! What a travel bug you are!");
+//     $('#four').show();
+//   }
+// });
 
 
 
