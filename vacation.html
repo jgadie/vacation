@@ -9,14 +9,22 @@
     <title>Dream Vacation</title>
   </head>
   <body>
+
+  <!-- Introduction Statement -->
+
     <div class="container">
     <h1>The Vacation of Your Dreams: Questionnaire</h1>
     <h3>A Questionnaire to find your perfect vacation destination!</h3>
       <p>In order to find the perfect destination, please tell use a little bit about yourself and your preferences:</p>
 
+  <!-- Start of name entry and user input via dropdown menu -->
+
       <form id="questions"
+      <div class="form-group has-error warning has-feedback">
         <label for="firstname">Enter your name</label>
         <input id="firstname" type="text">
+     </div>
+
         <label for="adventure">How adventurous are you on a scale of 1 through 5 (5 = VERY adventurous)</label>
         <select id="adventure">
           <option value="one">1</option>
@@ -55,6 +63,9 @@
 
       </form>
   </div>
+
+<!-- Start of Destinations: Tropical, Metropolitan, Scenic, Rustic -->
+
 <div class="row">
   <div id="locations">
    <div id="TROPICAL">
