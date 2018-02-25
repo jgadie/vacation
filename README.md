@@ -5,8 +5,9 @@
 #### By _**{Jasmine Gadie}**_
 
 ## Description
-
+```
 _{This is small webpage designed to help a user pick the best suited vacation destination based on their 5 preference questions. }_
+```
 
 ## Setup/Installation Requirements
 * _Clone Vacation repository from Jasmine's Github_
