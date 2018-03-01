@@ -2,18 +2,39 @@
    $("form#questions").submit(function(event) {
      var adventurous = parseInt($("input#adventurous").val());
 
+//  Added 'hide' functions
+
   if (adventurous === 1) {
     $('#RUSTIC').show();
+    $('#TROPICAL').hide();
+    $('#METROPOLITAN').hide();
+    $('#SCENIC').hide();
+
   } else if (adventurous === 2) {
     $('#TROPICAL').show();
+    $('#RUSTIC').hide();
+    $('#METROPOLITAN').hide();
+    $('#SCENIC').hide();
+
   } else if (adventurous === 3) {
     alert("Wow, a risk taker!");
     $('#METROPOLITAN').show();
+    $('#TROPICAL').hide();
+    $('#RUSTIC').hide();
+    $('#SCENIC').hide();
+
   } else if (adventurous === 4) {
     alert("What a travel bug you are!");
     $('#SCENIC').show();
+    $('#TROPICAL').hide();
+    $('#METROPOLITAN').hide();
+    $('#RUSTIC').hide();
+
   } else {
     $('#TROPICAL').show();
+    $('#RUSTIC').hide();
+    $('#METROPOLITAN').hide();
+    $('#SCENIC').hide();
   }
     event.preventDefault();
   });
